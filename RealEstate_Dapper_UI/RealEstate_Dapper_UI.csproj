@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AdminLTE-3.0.4\.github\ISSUE_TEMPLATE\bug-report-for-adminlte-v2-4-x.md" />
+    <None Include="wwwroot\AdminLTE-3.0.4\.github\ISSUE_TEMPLATE\bug-report-for-adminlte-v3-x.md" />
+    <None Include="wwwroot\AdminLTE-3.0.4\.github\ISSUE_TEMPLATE\feature-request-for-adminlte-v3-x.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0-preview.7.23408.2" />
+  </ItemGroup>
+
+</Project>

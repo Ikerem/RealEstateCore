@@ -1,0 +1,9 @@
+﻿namespace RealEstateCore_Api.Dtos.CategoryDtos
+{
+    public class GetBYCategoryDto
+    {
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        public bool CategoryStatus { get; set; }
+    }
+}
